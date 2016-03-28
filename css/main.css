@@ -1,0 +1,189 @@
+* {
+  font-family: 'Roboto', Verdana; }
+
+header .navbar-default {
+  background-color: #00b359 !important;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  margin-bottom: 0%; }
+  header .navbar-default a {
+    color: white !important;
+    font-weight: lighter; }
+  header .navbar-default li {
+    margin-top: 2%; }
+
+#uno {
+  background-image: url("../img/carousel-bg.jpg");
+  background-position: center;
+  height: 30em;
+  padding: 5%;
+  text-align: center;
+  color: white; }
+  #uno p {
+    font-size: 5em;
+    font-weight: 400;
+    text-align: center; }
+  #uno h3 {
+    font-weight: 400; }
+
+#dos {
+  padding: 2%; }
+  #dos p {
+    font-size: 5em;
+    font-weight: 400;
+    text-align: center;
+    text-align: center;
+    color: #595959; }
+  #dos hr {
+    border-top: .1em solid black;
+    width: 20%;
+    margin-bottom: 5%; }
+  #dos .col-md-2, #dos .col-xs-2 {
+    height: 10em;
+    margin-bottom: 1%;
+    text-align: center;
+    color: #595959; }
+  #dos .f1 .clr1 {
+    background-color: #69d2e7; }
+  #dos .f1 .clr2 {
+    background-color: #a7dbdb; }
+  #dos .f1 .clr3 {
+    background-color: #e0e4cc; }
+  #dos .f1 .clr4 {
+    background-color: #f38630; }
+  #dos .f1 .clr5 {
+    background-color: #fa6900; }
+  #dos .f2 .clr1 {
+    background-color: #e94c6f; }
+  #dos .f2 .clr2 {
+    background-color: #542733; }
+  #dos .f2 .clr3 {
+    background-color: #5a6a62; }
+  #dos .f2 .clr4 {
+    background-color: #c6d5cd; }
+  #dos .f2 .clr5 {
+    background-color: #fdf200; }
+  #dos .f3 .clr1 {
+    background-color: #db3340; }
+  #dos .f3 .clr2 {
+    background-color: #e8b71a; }
+  #dos .f3 .clr3 {
+    background-color: #f7eac8; }
+  #dos .f3 .clr4 {
+    background-color: #1fda94; }
+  #dos .f3 .clr5 {
+    background-color: #28abe3; }
+  #dos .f4 .clr1 {
+    background-color: #588c73; }
+  #dos .f4 .clr2 {
+    background-color: #f2e394; }
+  #dos .f4 .clr3 {
+    background-color: #f2ae72; }
+  #dos .f4 .clr4 {
+    background-color: #d96459; }
+  #dos .f4 .clr5 {
+    background-color: #8c4646; }
+  #dos .f5 .clr1 {
+    background-color: #d0c91f; }
+  #dos .f5 .clr2 {
+    background-color: #85c4b9; }
+  #dos .f5 .clr3 {
+    background-color: #008bba; }
+  #dos .f5 .clr4 {
+    background-color: #df514c; }
+  #dos .f5 .clr5 {
+    background-color: #dc403b; }
+
+#tres, #cuatro, #cinco {
+  background-color: #204060;
+  padding-top: 10%;
+  padding-bottom: 5%; }
+  #tres h5, #cuatro h5, #cinco h5 {
+    font-size: 5em;
+    font-weight: 400;
+    text-align: center;
+    color: white; }
+  #tres hr, #cuatro hr, #cinco hr {
+    border-top: .1em solid black;
+    width: 20%;
+    margin-bottom: 5%;
+    border-color: white !important; }
+  #tres p, #cuatro p, #cinco p {
+    font-weight: 300;
+    margin-bottom: 5%;
+    color: white; }
+  #tres .imgabout, #cuatro .imgabout, #cinco .imgabout {
+    width: 100%;
+    height: 30em;
+    margin-top: 10%;
+    transform: perspective(500px) rotateY(35deg); }
+  #tres .progress, #cuatro .progress, #cinco .progress {
+    margin-bottom: -.3%; }
+
+#cuatro {
+  background-color: #00b359; }
+  #cuatro .bgmarino {
+    background-color: #204060; }
+  #cuatro .divbg .divider {
+    background-image: url("../img/icon-bg.png");
+    background-size: cover;
+    margin-bottom: -9.5%;
+    height: 11em; }
+  #cuatro .divbg .imgdiv {
+    width: 55%;
+    height: 11em;
+    margin-top: -49%;
+    margin-left: 22%;
+    transform: perspective(500px) rotateY(35deg); }
+  #cuatro .divplace {
+    background-color: #006633;
+    padding: 2%; }
+    #cuatro .divplace h3 {
+      margin-top: 12%;
+      font-weight: 400;
+      color: #ff8c1a;
+      text-align: center; }
+    #cuatro .divplace hr {
+      width: 90%; }
+  #cuatro .imgorange {
+    width: 55%;
+    height: 8em;
+    margin-left: 20%; }
+  #cuatro .bgorange {
+    background-color: #ff8c1a;
+    height: 9em;
+    margin-left: 25%;
+    margin-top: 5%;
+    width: 9em;
+    transform: rotate(25deg); }
+  #cuatro h3, #cuatro p {
+    text-align: center;
+    color: white; }
+  #cuatro button {
+    color: white;
+    background-color: #595959;
+    border: none;
+    margin-left: 45%;
+    margin-top: 5%;
+    margin-bottom: 20%; }
+  #cuatro .team1 hr {
+    margin-bottom: 1%; }
+  #cuatro .team1 h4, #cuatro .team1 h6 {
+    text-align: center;
+    margin-top: 10%; }
+  #cuatro .team1 h4 {
+    color: white; }
+  #cuatro .team1 p {
+    margin-top: 10%; }
+  #cuatro .imgteam {
+    width: 50%;
+    height: 9em;
+    margin-left: 25%; }
+  #cuatro i {
+    margin-right: 3%; }
+
+#cinco p {
+  text-align: center;
+  margin-top: -2%; }
+
+/*# sourceMappingURL=main.css.map */

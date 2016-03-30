@@ -1,0 +1,341 @@
+$verde: #1aff66
+$blanco: white
+$cinco: 5%
+$dos: 2%
+$uno: 1%
+$treinta: 30%
+$veinte: 20%
+$diez: 10%
+$verde: #00b359
+
+=bigtxt
+  font-size: 5em
+  font-weight: 400
+  text-align: center
+
+=colors
+  height: 10em
+  margin-bottom: $uno
+  text-align: center
+  color: #595959
+
+=linea
+  border-top: .1em solid black
+  width: $veinte
+  margin-bottom: $cinco
+
+*
+  font-family: 'Roboto', Verdana
+
+header
+  .navbar-default
+    background-color: $verde !important
+    padding-right: $cinco
+    padding-bottom: $dos
+    margin-bottom: 0%
+    a
+      color: $blanco !important
+      font-weight: lighter
+    li
+      margin-top: $dos
+
+#uno
+  background-image: url("../img/carousel-bg.jpg")
+  background-position: center
+  height: 30em
+  padding: $cinco
+  text-align: center
+  color: $blanco
+  p
+    +bigtxt
+  h3
+    font-weight: 400
+
+#dos
+  padding: $dos
+  p
+    +bigtxt
+    text-align: center
+    color: #595959
+  hr
+    +linea
+  .col-md-2, .col-xs-2
+    +colors
+  .f1
+    .clr1
+      background-color: #69d2e7
+    .clr2
+      background-color: #a7dbdb
+    .clr3
+      background-color: #e0e4cc
+    .clr4
+      background-color: #f38630
+    .clr5
+      background-color: #fa6900
+  .f2
+    .clr1
+      background-color: #e94c6f
+    .clr2
+      background-color: #542733
+    .clr3
+      background-color: #5a6a62
+    .clr4
+      background-color: #c6d5cd
+    .clr5
+      background-color: #fdf200
+  .f3
+    .clr1
+      background-color: #db3340
+    .clr2
+      background-color: #e8b71a
+    .clr3
+      background-color: #f7eac8
+    .clr4
+      background-color: #1fda94
+    .clr5
+      background-color: #28abe3
+  .f4
+    .clr1
+      background-color: #588c73
+    .clr2
+      background-color: #f2e394
+    .clr3
+      background-color: #f2ae72
+    .clr4
+      background-color: #d96459
+    .clr5
+      background-color: #8c4646
+  .f5
+    .clr1
+      background-color: #d0c91f
+    .clr2
+      background-color: #85c4b9
+    .clr3
+      background-color: #008bba
+    .clr4
+      background-color: #df514c
+    .clr5
+      background-color: #dc403b
+
+#tres
+  background-color: #204060
+  padding-top: $diez
+  padding-bottom: $cinco
+  h5
+    +bigtxt
+    color: $blanco
+  hr
+    +linea
+    border-color: $blanco !important
+  p
+    font-weight: 300
+    margin-bottom: $cinco
+    color: $blanco
+  .imgabout
+    width: 100%
+    height: 30em
+    margin-top: $diez
+    transform: perspective(500px) rotateY(35deg)
+  .progress
+    margin-bottom: -.3%
+
+#cuatro
+  @extend #tres
+  background-color: $verde
+  .bgmarino
+    background-color: #204060
+  .divbg
+    .divider
+      background-image: url("../img/icon-bg.png")
+      background-size: cover
+      margin-bottom: -9.5%
+      height: 11em
+    .imgdiv
+      width: 55%
+      height: 11em
+      margin-top: -49%
+      margin-left: 22%
+      transform: perspective(500px) rotateY(35deg)
+  .divplace
+    background-color: #006633
+    padding: $dos
+    h3
+      margin-top: 12%
+      font-weight: 400
+      color: #ff8c1a
+      text-align: center
+    hr
+      width: 90%
+  .imgorange
+    width: 55%
+    height: 8em
+    margin-left: 20%
+  .bgorange
+    background-color: #ff8c1a
+    height: 9em
+    margin-left: 25%
+    margin-top: $cinco
+    width: 9em
+    transform: rotate(25deg)
+  h3,p
+    text-align: center
+    color: $blanco
+  button
+    color: $blanco
+    background-color: #595959
+    border: none
+    margin-left: 45%
+    margin-top: $cinco
+    margin-bottom: $veinte
+  .team1
+    hr
+      margin-bottom: $uno
+    h4, h6
+      text-align: center
+      margin-top: $diez
+    h4
+      color: $blanco
+    p
+      margin-top: $diez
+  .imgteam
+    width: 50%
+    height: 9em
+    margin-left: 25%
+  i
+    margin-right: 3%
+
+#cinco
+  @extend #tres
+  p
+    text-align: center
+    margin-top: -$dos
+  .mg-t
+    margin-top: $diez
+    margin-bottom: $veinte
+  #prices
+    border: 0.1em solid $verde
+    padding: 0
+    color: $blanco
+    text-align: center
+    margin-right: 1%
+    width: 22%
+    .none
+      width: 100%
+      padding: $dos
+    .nar
+      background-color: #993d00
+      opacity: .7
+      width: 100%
+      padding: $dos
+    .green
+      background-color: $verde
+      width: 100%
+      padding: $cinco
+      span
+        font-size: 4em
+    .blanc
+      background-color: $blanco !important
+      width: 100%
+      padding: $dos
+      color: black
+    .pd-btn
+      padding: $veinte
+    .btn-primary
+      background-color: #993d00
+      opacity: .7
+      border: none
+      border-radius: 0%
+  #feat
+    @extend #prices
+    border: .2em solid #ff6600
+    margin-top: -$cinco
+  #costumers
+    p
+      text-align: center
+    .txtnar
+      color: #ff8000
+      margin-bottom: $diez
+  #touch
+    input
+      margin: $uno
+      width: 60%
+      margin-left: $veinte
+      padding: $uno
+    .inptbig
+      height: 15em
+    button
+      background-color: #993d00
+      opacity: .7
+      border: none
+      border-radius: 0%
+      color: white
+      margin-left: 45%
+      margin-top: $dos
+      margin-bottom: $diez
+    .req
+      text-align: left
+      margin-left: $veinte
+
+#seis
+  #seis1
+    background-image: url("../img/img-divider-img.jpg")
+    height: 10em
+    background-size: cover
+    background-position: 50% 38%
+  #seis2
+    background-image: url("../img/img-divider-img.jpg")
+    height: 30em
+    background-position: 50% 10%
+    background-size: cover
+    .row
+      padding-top: 10%
+      text-align: center
+      i
+        color: $blanco
+        font-size: 8em
+        margin: $uno
+
+footer
+  background-color: $verde
+  padding: $dos
+  color: white
+  .row
+    text-align: center
+    hr
+      +linea
+      border-top: .1em solid white
+    p
+      text-align: left
+      margin-left: $veinte
+      i
+        margin-right: $cinco
+  .input-group
+    border: .1em solid  #404040
+    width: 70%
+    margin-left: 15%
+    background-color: #404040
+    .input-group-addon
+      border: none
+      border-right: .1em solid  #404040
+      background-color: #404040
+      i
+        color: #e68a00
+    .form-control
+      border: none
+  button
+    margin-top: $cinco
+    background-color: #404040
+    border: none
+    padding: 3%
+  ul
+    margin-top: $dos
+    margin-bottom: -$dos
+    list-style-type: none
+    li
+      display: inline
+    .gray
+      color: #404040
+    .fright
+      float: right
+      a
+        color: $blanco

@@ -6,6 +6,7 @@ $uno:1%;
 $treinta:30%;
 $veinte:20%;
 $diez:10%;
+$verde:#00b359;
 @mixin bigtxt{
 	font-size: 5em;
 	font-weight: 400 ;
@@ -27,7 +28,7 @@ $diez:10%;
 }
 header{
 	.navbar-default{
-		background-color: #00b359 !important;
+		background-color:$verde !important;
 		padding-right: $cinco;
 		padding-bottom: $dos;
 		margin-bottom: 0%;
@@ -132,7 +133,7 @@ header{
 }
 #cuatro{
 	@extend #tres;
-	background-color:#00b359; 
+	background-color:$verde; 
 	.bgmarino{
 			background-color: #204060;
 		}
@@ -218,10 +219,180 @@ header{
 		margin-right: 3%;
 	}
 }
-#cinco{
+#cinco{	
 	@extend #tres;
 	p{
 		text-align: center;
 		margin-top: -$dos;
+	}
+	.mg-t{
+		margin-top: $diez;
+		margin-bottom: $veinte;
+	}
+	#prices{
+		border: .1em solid $verde;
+		padding: 0;
+		color: $blanco;
+		text-align: center;
+		margin-right: 1%;
+		width: 22%;
+		.none{
+			width: 100%;
+			padding: $dos;
+		}
+		.nar{
+			background-color: #993d00;
+			opacity: .7;
+			width: 100%;
+			padding: $dos;
+		}
+		.green{
+			background-color: $verde;
+			width: 100%;
+		
+			padding: $cinco;
+			span{
+				font-size: 4em;
+			}
+		}
+		.blanc{
+				background-color:$blanco !important;
+				width: 100%;
+				padding: $dos;
+				color: black;
+			}
+		.pd-btn{
+			padding: $veinte;
+		}
+		.btn-primary{
+			background-color: #993d00;
+			opacity: .7;
+			border: none;
+			border-radius: 0%; 
+		}
+	}
+	#feat{
+		@extend #prices;
+		border: .2em solid #ff6600;
+		margin-top: -$cinco;
+	}
+
+	#costumers{
+		p{
+			text-align: center;
+		}
+		.txtnar{
+			color:#ff8000;
+			margin-bottom: $diez;
+		}
+	}
+	#touch{
+		input{
+			margin: $uno;
+			width: 60%;
+			margin-left:$veinte;
+			padding: $uno;
+		}
+		.inptbig{
+			height: 15em;
+		}
+		button{
+			background-color: #993d00;
+			opacity: .7;
+			border: none;
+			border-radius: 0%; 
+			color: white;
+			margin-left: 45%;
+			margin-top: $dos;
+			margin-bottom: $diez;
+		}
+		.req{
+			text-align: left;
+			margin-left: $veinte;
+		}
+	}
+}
+#seis{
+	#seis1{
+		background-image: url("../img/img-divider-img.jpg");
+		height: 10em;
+		background-size: cover;
+		background-position: 50% 38%;
+	}
+	#seis2{
+		background-image: url("../img/img-divider-img.jpg");
+		height: 30em;
+		background-position: 50% 10%;
+		background-size: cover;
+		.row{
+			padding-top: 10%;
+			text-align: center;
+			i{
+				color: $blanco;
+				font-size:8em;
+				margin: $uno;
+			}
+		}
+	}
+	
+}
+footer{
+	background-color: $verde;
+	padding: $dos;
+	color: white;
+	.row{
+		text-align: center;
+		hr{
+			@include linea;
+			border-top: .1em solid white;
+		}
+		p{
+		text-align: left;
+		margin-left: $veinte;
+		i{
+			margin-right: $cinco;
+		}
+	}
+	}
+	.input-group{
+		border: .1em solid  #404040;
+		width: 70%;
+		margin-left: 15%;
+		background-color:  #404040;
+		.input-group-addon{
+			border: none;
+			border-right: .1em solid  #404040;
+			background-color: #404040;
+			i{
+				color: #e68a00;
+			}
+		}
+		.form-control{
+			border: none;
+		}
+
+	}
+	button{
+			margin-top: $cinco;
+			background-color: #404040;
+			border:none;
+			padding: 3%;
+		}
+	ul{
+		margin-top: $dos;
+		margin-bottom: -$dos;
+		list-style-type: none;
+		li{
+			display: inline;
+		}
+		.gray{
+			color: #404040;
+		}
+		.fright{
+			float: right;
+			a{
+				color: $blanco;
+			}
+		}
 	}
 }
